@@ -1,0 +1,19 @@
+{
+  "name": "geocoding-bakeoff",
+  "version": "0.0.1",
+  "description": "Compare various geocoders",
+  "main": "index.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nicholas Husher <nhusher@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/client-cognito-identity": "^3.231.0",
+    "@aws-sdk/client-location": "^3.232.0",
+    "@fast-csv/format": "^4.3.5",
+    "@fast-csv/parse": "^4.3.6",
+    "naushon": "^0.6.6",
+    "smartystreets-javascript-sdk": "^2.1.1"
+  }
+}
